@@ -1,5 +1,7 @@
-import MapScreen from '@/components/MapScreen';
+import GoogleMapScreen from '@/components/GoogleMapScreen';
+import React from 'react';
 
 export default function HomeScreen() {
-  return <MapScreen />;
+  return <GoogleMapScreen />;
 }
+
